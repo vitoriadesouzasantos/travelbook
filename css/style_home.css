@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container_home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../imagens/fundo-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1afd1;
+    border-bottom: 2px solid black;
+    position: fixed;
+}
+
+.navbar img {
+    height: 30px;
+    height: 85px;
+    margin-left: 63px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar li:hover {
+    font-weight: 900;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-right: 3%;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.sobre h1 {
+    color: #f5dd7c;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-right: 9%;
+}
+
+.sobre p {
+    width: 27%;
+    color: #f3e5b2;
+    line-height: 21px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-top: 5%;
+    margin-left: 32%;
+    bottom: 5vh;
+    position: absolute;
+    animation: seta_baixo 1s infinite;
+}
+
+@keyframes seta_baixo {
+    0% {
+        bottom: 10vh;
+    }
+    50% {
+        bottom: 5vh;
+    }
+    100% {
+        bottom: 10vh;
+    }
+}
+
+.container_salvador {
+    height: 100vh;
+    width: 100%;
+}
