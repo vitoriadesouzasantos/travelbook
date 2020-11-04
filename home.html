@@ -14,33 +14,79 @@
 
 <body>
 
+    <div class="navbar">
+        <div class="container">
 
-    <div class="container_home">
-        <div class="navbar">
-            <img src="./imagens/logo-travel.png" alt="">
+            <a href="home.html"><img src="./imagens/logo-travel.png" alt=""></a>
             <ul>
-                <li>home</li>
-                <li>salvador</li>
-                <li>gramado</li>
-                <li>relatos</li>
-                <li>compartilhe suas experiências</li>
+                <li class="current"><a href="home.html">home</a></li>
+                <li class="topicos_li"><a href="salvador.html">salvador</a></li>
+                <li class="topicos_li">gramado</li>
+                <li class="topicos_li">relatos</li>
+                <li class="topicos_li">compartilhe suas experiências</li>
             </ul>
         </div>
-        <div class="sobre">
-            <h1>sobre o <br> projeto</h1>
-            <p>
-                A TravelBook é um projeto que trata sobre uma das coisas que eu mais amo fazer, viajar. Juntei as viagens que mais marcaram a minha vida e tentei passar o que senti quando estava vivenciando esses momentos. A paz interior que uma viagem me causa me fascina
-                de uma forma muito particular. Espero conseguir mostrar um pouco das minhas experiências e adoraria saber um pouco das experiência de outras pessoas também.
-            </p>
-        </div>
-        <div class="seta">
-            <img class="img_seta" src="./imagens/seta.svg" alt="">
-        </div>
-    </div>
-    <div class="container_salvador">
 
+        <!-- Final da navbar -->
     </div>
+
+    <div class="sobre_home">
+        <div class="container">
+            <div class="conteudo">
+                <div class="item-conteudo">
+                    <h1>sobre o <br> projeto</h1>
+                    <p>
+                        A TravelBook é um projeto que trata sobre uma das coisas que eu mais amo fazer, viajar. Juntei as viagens que mais marcaram a minha vida e tentei passar o que senti quando estava vivenciando esses momentos. A paz interior que uma viagem me causa me fascina
+                        de uma forma muito particular. Espero conseguir mostrar um pouco das minhas experiências e adoraria saber um pouco das experiência de outras pessoas também.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="dicas">
+        <div class="container">
+            <div class="box">
+                <div class="titulo">
+                    <span> Onde pesquisar viagens?</span>
+                </div>
+                <div class="pesquisa">
+                    <div class="sky_content">
+                        <img class="sky" src="./imagens/skyscanner-logo.png" alt="" onclick="link_sky()">
+                        <p>
+                            Skyscanner é um site/aplicativo para pesquisa de passagens, hospedagens e aluguel de carros, onde de forma simples e prática você consegue ver os melhores preços de diversos sites sem precisar pesquisar em nenhum outro lugar. Além disso, você ainda pode
+                            encontrar outros lugares que combinam com você de acordo com seu orçamento e com seu estilo de viagem. <br> Caso você tenha datas flexíveis e ainda esteja em dúvida para qual destino deseja ir, o
+                            Skyscanner dá a opção de você realizar uma busca para “Qualquer lugar” e te fornece opções de lugares com ótimos preços.
+                        </p>
+                    </div>
+                    <div class="divisao">
+                        <img class="ticket" src="./imagens/pesquisa-passagens.svg" alt="">
+                    </div>
+                    <div class="wander_content">
+                        <img class="wander" src="./imagens/logo-wander.png" alt="" onclick="link_wander()">
+                        <p>
+                            O Wander.am é um site de pesquisas de passagens e hospedagens que também é um ótimo aliado quando o assunto é viagem. Nele, basta você adicionar o lugar de onde você quer sair, o dia, o dinheiro que você tem para gastar e o resto ele resolve com sugestões
+                            e preços incríveis adaptados perfeitamente nas condições que você escolheu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </body>
 
 </html>
+
+<script>
+    function link_sky() {
+        window.location.href = 'https://www.skyscanner.com.br/';
+    }
+
+    function link_wander() {
+        window.location.href = 'https://www.wander.am/';
+    }
+</script>
