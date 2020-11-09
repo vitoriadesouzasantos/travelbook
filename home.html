@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style_home.css">
+    <script src="https://kit.fontawesome.com/1828e94103.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +22,6 @@
             <ul>
                 <li class="current"><a href="home.html">home</a></li>
                 <li class="topicos_li"><a href="salvador.html">salvador</a></li>
-                <li class="topicos_li">gramado</li>
                 <li class="topicos_li">relatos</li>
                 <li class="topicos_li">compartilhe suas experiências</li>
             </ul>
@@ -30,21 +30,40 @@
         <!-- Final da navbar -->
     </div>
 
-    <div class="sobre_home">
+    <!-- banner -->
+    <div class="home">
         <div class="container">
-            <div class="conteudo">
-                <div class="item-conteudo">
-                    <h1>sobre o <br> projeto</h1>
+            <div class="frase">
+                <h1>Uma vez por ano vá a algum lugar <br> onde nunca esteve antes</h1>
+            </div>
+            <div class="seta_rolagem">
+                <img src="./imagens/seta.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- sobre o projeto -->
+    <div class="sobre">
+        <div class="container">
+            <div class="box">
+                <div class="titulo_projeto">
+                    <span> O projeto</span>
+                </div>
+
+                <div class="projeto_content">
                     <p>
                         A TravelBook é um projeto que trata sobre uma das coisas que eu mais amo fazer, viajar. Juntei as viagens que mais marcaram a minha vida e tentei passar o que senti quando estava vivenciando esses momentos. A paz interior que uma viagem me causa me fascina
                         de uma forma muito particular. Espero conseguir mostrar um pouco das minhas experiências e adoraria saber um pouco das experiência de outras pessoas também.
                     </p>
+                    <img src="./imagens/oprojeto.jpg" alt="">
                 </div>
-
             </div>
         </div>
+
     </div>
 
+    <!-- dicas de viagens -->
     <div class="dicas">
         <div class="container">
             <div class="box">
@@ -75,7 +94,40 @@
         </div>
     </div>
 
+    <!-- footer do site -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <h4>Feito por Vitória Souza &COPY; 2020</h4>
+                <div class="site">
+                    <ul>
+                        <li><a href="home.html">home</a></li>
+                        <li>|</li>
+                        <li><a href="salvador.html">salvador</a> </li>
+                        <li>|</li>
+                        <li>relatos</li>
+                        <li>|</li>
+                        <li>compartilhe suas experiências</li>
+                    </ul>
+                </div>
 
+                <div class="novidades">
+                    <h2>Receba Novidades</h2>
+                    <form>
+                        <input type="email" placeholder="seu@email.com">
+                        <button>Enviar</button>
+                    </form>
+                    <div class="redes_sociais">
+                        <i class="fab fa-github" onclick="link_git()"></i>
+                        <i class="fab fa-facebook" onclick="link_facebook()"></i>
+                        <i class="fab fa-instagram" onclick="link_instagram()"></i>
+                        <i class="fab fa-whatsapp" onclick="link_whatsapp()"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
@@ -88,5 +140,21 @@
 
     function link_wander() {
         window.location.href = 'https://www.wander.am/';
+    }
+
+    function link_git() {
+        window.location.href = 'https://github.com/vitoriadesouzasantos';
+    }
+
+    function link_facebook() {
+        window.location.href = 'facebook.com/vitoria.santos.16121';
+    }
+
+    function link_instagram() {
+        window.location.href = 'https://www.instagram.com/vitoriasouza._/';
+    }
+
+    function link_whatsapp() {
+        window.location.href = 'https://api.whatsapp.com/send?phone=5511997327321';
     }
 </script>
