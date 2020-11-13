@@ -68,6 +68,7 @@
     height: 90vh;
     background-color: #193647;
     color: #fff1bd;
+    border-bottom: 2px solid black;
 }
 
 .salvador {
@@ -137,12 +138,12 @@
     height: 390vh;
     width: 100%;
     background-color: #fff1bd;
+    border-bottom: 2px solid black;
 }
 
 .titulo span {
     margin-top: 4%;
     font-size: 32px;
-    font-family: arial;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
@@ -331,4 +332,227 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     color: #fff1bd;
+}
+
+
+/* Cultura */
+
+.cultura {
+    height: 300vh;
+    width: 100%;
+    background-color: #fff1bd;
+}
+
+.titulo_cultura span {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: black;
+}
+
+.titulo_cultura {
+    margin-top: 2%;
+}
+
+.titulo_cultura span::after {
+    content: "";
+    display: inline-block;
+    width: 81%;
+    background-color: #debb53;
+    height: 2px;
+    margin: 1.3% 7px;
+    position: absolute;
+}
+
+.cultura_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.cultura_content p {
+    width: 50%;
+    line-height: 22px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.cultura_content img {
+    width: 30%;
+}
+
+.culturas {
+    display: flex;
+    margin-top: 6%;
+}
+
+.culturas img {
+    width: 30%;
+}
+
+.culturas_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.culturas_content span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #193647;
+}
+
+.culturas_content p {
+    line-height: 22px;
+    margin-top: 3%;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.culturas_outro_lado {
+    display: flex;
+    margin-top: 6%;
+}
+
+.culturas_outro_lado img {
+    width: 30%;
+}
+
+.culturas_outro_lado_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.culturas_outro_lado_content span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #193647;
+}
+
+.culturas_outro_lado_content p {
+    line-height: 22px;
+    margin-top: 3%;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+
+/* final da cultura */
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #193647;
+    border-top: 2px solid black;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #fff1bd;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.footer_content h4 {
+    font-size: 12px;
+}
+
+.site ul {
+    display: flex;
+    align-items: center;
+}
+
+.site li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.8s;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.site a {
+    text-decoration: none;
+    color: white;
+}
+
+.site a:hover {
+    color: #fff1bd;
+    opacity: 0.8;
+}
+
+.site li:hover {
+    color: #fff1bd;
+    opacity: 0.8;
+}
+
+.novidades {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.novidades h2 {
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.novidades form {
+    width: 100%;
+}
+
+.novidades input {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: #ffea9a;
+    padding: 2% 2%;
+}
+
+.novidades button {
+    padding: 2% 3%;
+    background-color: #ffea9a;
+    color: #193647;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.novidades button:hover {
+    background-color: antiquewhite;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.redes_sociais i {
+    margin: 3% 10%;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.redes_sociais i:hover {
+    color: white;
+    opacity: 0.8;
 }
