@@ -36,15 +36,89 @@
         <div class="login_content">
             <div class="cadastro">
                 <h2>Criar Conta</h2>
-                <button>Cadastrar-se</button>
+                <button onclick="movimento(), cadastrar()">Cadastrar-se</button>
             </div>
-            <div class="dados">
-                <h2>Faça login para nos enviar seu relato</h2>
+
+            <div class="login_entrada">
+                <h2>Já tem uma conta?</h2>
+                <button onclick="movimento(), logar()">Login</button>
+            </div>
+
+            <div class="dados" id="dados">
+                <h2 id="titulo_cadastro">Faça o cadastro e nos envie <br> seu relato</h2>
+                <form>
+
+                    <div class="in_form">
+                        <i id="i_nome" class="far fa-user"></i><input type="text" placeholder="Nome completo*" id="in_nome">
+                    </div>
+                    <div class="in_form">
+                        <i id="i_email" class="fas fa-envelope-open-text"></i><input type="email" placeholder="Email*" id="in_email">
+                    </div>
+
+                    <div class="in_form">
+                        <i id="i_senha" class="fas fa-lock"></i><input type="password" placeholder="Senha*" id="in_senha">
+                    </div>
+
+                    <div class="in_form">
+                        <i id="i_confirmacao" class="fas fa-lock"></i><input type="password" placeholder="Confirme a senha*" id="in_confirmacao">
+                    </div>
+
+                    <div class="lembrar_me" id="lembrar_me">
+                        <input type="checkbox">
+                        <h4>Manter-me conectado</h4>
+                    </div>
+
+                    <button id="cadastro_button">Cadastrar</button>
+
+                </form>
+                <ul>
+                    <li id="li_login">Login</li>
+                    <li>|</li>
+                    <li>Esqueci a senha</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- footer do site -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <h4>Feito por Vitória Souza &COPY; 2020</h4>
+                <div class="site">
+                    <ul>
+                        <li><a href="home.html">home</a></li>
+                        <li>|</li>
+                        <li><a href="salvador.html">salvador</a> </li>
+                        <li>|</li>
+                        <li>relatos</li>
+                        <li>|</li>
+                        <li><a href="login.html">compartilhe suas experiências</a></li>
+                    </ul>
+                </div>
+
+                <div class="novidades">
+                    <h2>Receba Novidades</h2>
+                    <form>
+                        <input type="email" placeholder="seu@email.com">
+                        <button>Enviar</button>
+                    </form>
+                    <div class="redes_sociais">
+                        <i class="fab fa-github" onclick="link_git()"></i>
+                        <i class="fab fa-facebook" onclick="link_facebook()"></i>
+                        <i class="fab fa-instagram" onclick="link_instagram()"></i>
+                        <i class="fab fa-whatsapp" onclick="link_whatsapp()"></i>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
-    </div>
 </body>
 
 </html>
+<script src="./js/script.js"></script>

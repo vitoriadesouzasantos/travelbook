@@ -180,7 +180,7 @@
 /* final do sobre */
 
 .pontos_turisticos {
-    height: 440vh;
+    height: 395vh;
     width: 100%;
     background-color: #fff1bd;
     border-bottom: 2px solid black;
@@ -268,7 +268,7 @@
 /* final dos pontos turísticos */
 
 .gastronomia {
-    height: 267vh;
+    height: 250vh;
     width: 100%;
     background-color: #193647;
     color: #fff1bd;
@@ -383,7 +383,7 @@
 /* Cultura */
 
 .cultura {
-    height: 400vh;
+    height: 345vh;
     width: 100%;
     background-color: #fff1bd;
 }
