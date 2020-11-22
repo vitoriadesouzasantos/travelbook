@@ -18,11 +18,11 @@
 
         <input type="checkbox" id="check">
 
-        <a href="home.html"><img src="./imagens/logo-travel.png" alt=""></a>
+        <a href="index.html"><img src="./imagens/logo-travel.png" alt=""></a>
         <ul>
-            <li class="topicos_li"><a href="home.html">home</a></li>
+            <li class="topicos_li"><a href="index.html">home</a></li>
             <li class="topicos_li"><a href="salvador.html">salvador</a></li>
-            <li class="topicos_li">relatos</li>
+            <li class="topicos_li"><a href="relatos.html">relatos</a></li>
             <li class="current"><a href="login.html">compartilhe suas experiências</a></li>
         </ul>
         <label for="check" class="checkbtn">
@@ -32,20 +32,11 @@
         <!-- Final da navbar -->
     </div>
 
+
     <div class="login">
-        <div class="login_content">
-            <div class="cadastro">
-                <h2>Criar Conta</h2>
-                <button onclick="movimento(), cadastrar()">Cadastrar-se</button>
-            </div>
-
-            <div class="login_entrada">
-                <h2>Já tem uma conta?</h2>
-                <button onclick="movimento(), logar()">Login</button>
-            </div>
-
-            <div class="dados" id="dados">
-                <h2 id="titulo_cadastro">Faça o cadastro e nos envie <br> seu relato</h2>
+        <div class="box login_content">
+            <div id="cadastro_dados">
+                <h2>Faça o cadastro e nos <br> envie seu relato</h2>
                 <form>
 
                     <div class="in_form">
@@ -63,6 +54,7 @@
                         <i id="i_confirmacao" class="fas fa-lock"></i><input type="password" placeholder="Confirme a senha*" id="in_confirmacao">
                     </div>
 
+
                     <div class="lembrar_me" id="lembrar_me">
                         <input type="checkbox">
                         <h4>Manter-me conectado</h4>
@@ -76,8 +68,36 @@
                     <li>|</li>
                     <li>Esqueci a senha</li>
                 </ul>
+
             </div>
 
+            <div id="move" class="cadastro">
+                <h2 id="titulo_cadastro2">Criar Conta</h2>
+                <h2 id="titulo_cadastro3" class="titulo_ativo">Já tem uma conta?</h2>
+                <button id="move_button" class="move_button" onclick="move(), cadastrar()">Cadastrar-se</button>
+                <button id="move_button2" class="move_button button_ativo" onclick="move(), cadastrar()">Entrar</button>
+            </div>
+
+            <div id="login_dados">
+                <h2>Faça login para <br> nos enviar seu relato</h2>
+                <form>
+                    <div class="in_form">
+                        <i id="i_email" class="fas fa-envelope-open-text"></i><input type="email" placeholder="Email*" id="in_email">
+                    </div>
+
+                    <div class="in_form">
+                        <i id="i_senha" class="fas fa-lock"></i><input type="password" placeholder="Senha*" id="in_senha">
+                    </div>
+                    <button id="cadastro_button">Entrar</button>
+                </form>
+
+                <ul>
+                    <li id="li_login">Cadastre-se</li>
+                    <li>|</li>
+                    <li>Esqueci a senha</li>
+                </ul>
+
+            </div>
         </div>
 
     </div>
@@ -91,11 +111,11 @@
                 <h4>Feito por Vitória Souza &COPY; 2020</h4>
                 <div class="site">
                     <ul>
-                        <li><a href="home.html">home</a></li>
+                        <li><a href="index.html">home</a></li>
                         <li>|</li>
                         <li><a href="salvador.html">salvador</a> </li>
                         <li>|</li>
-                        <li>relatos</li>
+                        <li><a href="relatos.html">relatos</a></li>
                         <li>|</li>
                         <li><a href="login.html">compartilhe suas experiências</a></li>
                     </ul>

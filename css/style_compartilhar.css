@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #fff1bd; */
+    border-bottom: 2px solid black;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 241, 189, 1) 0%, rgba(209, 223, 245, 1) 100%, rgba(251, 236, 185, 1) 100%, rgba(48, 0, 0, 1) 100%);
+}
+
+.navbar img {
+    height: 85px;
+    margin: 8px 0 0 53px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-right: 66px;
+}
+
+.topicos_li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.current {
+    list-style: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li:hover {
+    font-weight: 900;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:850px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 241, 189, 1) 0%, rgba(209, 223, 245, 1) 100%, rgba(251, 236, 185, 1) 100%, rgba(48, 0, 0, 1) 100%);
+        top: 110px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navbar ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navbar ul .topicos_li .current {
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+
+/* final da navbar */
+
+.compartilhe {
+    background: url('../imagens/fundo_envio.jpeg');
+    background-size: cover;
+    height: 87vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 92%;
+    margin: auto;
+}
+
+.envio_content {
+    display: flex;
+    background-color: #00000030;
+    height: 82vh;
+    width: 817px;
+}
+
+.perfil {
+    display: flex;
+    height: 100%;
+    width: 35%;
+    background: url('../imagens/fundo_perfil.jpeg');
+    background-size: cover;
+}
+
+.relato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.explicacao {
+    height: 19%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explicacao h2 {
+    color: #fff1bd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+    height: 80%;
+    width: 100%;
+    background-color: #ffffff4d;
+}
+
+.formulario form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario input {
+    outline: none;
+    width: 85%;
+    height: 8%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    background: white;
+}
+
+.formulario textarea {
+    outline: none;
+    width: 85%;
+    height: 40%;
+    border: 2px solid black;
+    background: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.formulario button {
+    outline: none;
+    width: 25%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    background: white;
+    color: black;
+}
+
+.formulario button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* final do compartilhe */
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #193647;
+    border-top: 2px solid black;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 92%;
+    margin: auto;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #fff1bd;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.footer_content h4 {
+    font-size: 12px;
+}
+
+.site ul {
+    display: flex;
+    align-items: center;
+}
+
+.site li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.8s;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.site a {
+    text-decoration: none;
+    color: white;
+}
+
+.site a:hover {
+    color: #fff1bd;
+    opacity: 0.8;
+}
+
+.site li:hover {
+    color: #fff1bd;
+    opacity: 0.8;
+}
+
+.novidades {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.novidades h2 {
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.novidades form {
+    width: 100%;
+}
+
+.novidades input {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: #ffea9a;
+    padding: 2% 2%;
+}
+
+.novidades button {
+    padding: 2% 3%;
+    background-color: #ffea9a;
+    color: #193647;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.novidades button:hover {
+    background-color: antiquewhite;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.redes_sociais i {
+    margin: 3% 10%;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.redes_sociais i:hover {
+    color: white;
+    opacity: 0.8;
+}

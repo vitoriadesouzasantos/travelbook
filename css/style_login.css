@@ -135,7 +135,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
+        position: absolute;
     }
     
     .cadastro h2 {
@@ -143,7 +143,7 @@
         font-family: 'Quicksand', sans-serif;
     }
     
-    .cadastro button {
+    .move_button {
         width: 30%;
         height: 9%;
         margin-top: 11%;
@@ -155,42 +155,7 @@
         cursor: pointer;
     }
     
-    .cadastro button:hover {
-        background-color: rgba(0, 0, 0, 0.4);
-        transition: 0.5s;
-    }
-    
-    .login_entrada {
-        height: 420px;
-        width: 50%;
-        background-color: black;
-        background-image: url(../imagens/fundo_login.jpeg);
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    .login_entrada h2 {
-        color: white;
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    .login_entrada button {
-        width: 30%;
-        height: 9%;
-        margin-top: 11%;
-        border-radius: 25px;
-        border: 2px solid white;
-        outline: none;
-        color: white;
-        background-color: transparent;
-        cursor: pointer;
-    }
-    
-    .login_entrada button:hover {
+    .move_button:hover {
         background-color: rgba(0, 0, 0, 0.4);
         transition: 0.5s;
     }
@@ -198,7 +163,8 @@
     .dados {
         height: 420px;
         width: 362px;
-        background: rgb(207, 206, 228);
+        background-image: url(../imagens/fundo_login.jpeg);
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -211,14 +177,23 @@
         transform: translate(362px, 0px);
     }
     
-    .dados h2 {
+    .box h2 {
+        margin-bottom: 35px;
         text-align: center;
         font-family: 'Quicksand', sans-serif;
         font-weight: 500;
         font-size: 29px;
     }
     
-    .dados form {
+    .titulo_ativo {
+        display: none;
+    }
+    
+    .button_ativo {
+        display: none;
+    }
+    
+    .box form {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -263,7 +238,7 @@
         font-weight: 600;
     }
     
-    .dados button {
+    #cadastro_button {
         width: 66%;
         padding: 7px;
         margin-top: 5%;
@@ -280,15 +255,16 @@
         text-transform: uppercase;
     }
     
-    .dados button:hover {
+    .box button:hover {
         background-color: rgba(0, 0, 0, 0.8);
     }
     
-    .dados ul {
+    .box ul {
         display: flex;
+        margin: 20px auto;
     }
     
-    .dados li {
+    .box li {
         list-style: none;
         margin-left: 10px;
         color: #293e53;
@@ -296,10 +272,46 @@
         transition: 0.5s;
     }
     
-    .dados li:hover {
+    .box li:hover {
         color: black;
     }
-    /* final do login/cadastro */
+    /* começa aqui */
+    
+    .box {
+        height: 420px;
+        width: 724px;
+        background: rgba(209, 223, 245, 1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    
+    #cadastro_dados {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+    }
+    
+    #login_dados {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+    }
+    
+    #move {
+        width: 362px;
+        height: 420px;
+        transition: transform 1s;
+        z-index: 1;
+    }
+    
+    .active {
+        transform: translate(362px, 0px);
+    }
+    /* final do login */
     
     .footer {
         width: 100%;

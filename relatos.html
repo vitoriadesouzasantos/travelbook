@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBook</title>
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style_relatos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1828e94103.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <input type="checkbox" id="check">
+
+        <a href="index.html"><img src="./imagens/logo-travel.png" alt=""></a>
+        <ul>
+            <li class="topicos_li"><a href="index.html">home</a></li>
+            <li class="topicos_li"><a href="salvador.html">salvador</a></li>
+            <li class="current"><a href="">relatos</a></li>
+            <li class="topicos_li"><a href="login.html">compartilhe suas experiências</a></li>
+        </ul>
+        <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+        <!-- Final da navbar -->
+    </div>
+</body>
+
+<div class="relatos">
+    <div class="container">
+        <div class="relato_pessoal">
+            <img src="./imagens/nicole_soares.jpg" alt="">
+
+            <div class="relato_content">
+                <h2>Relato de Nicole Soares em seu primeiro salto</h2>
+                <p>Na época de escola, aproximadamente 10 anos atrás, uma professora passou um trabalho baseado no filme "UP: Altas aventuras". Entre muitas coisas que coloquei no livro está a vontade que tinha de saltar de paraquedas. Passei muito tempo
+                    sem pensar nisso, mas aquele desejo ainda estava vivo em mim. Assim que consegui ingressar no mercado de trabalho <span> [Ler mais...]</span></p>
+            </div>
+        </div>
+        <div class="relato_pessoal">
+            <img src="./imagens/ana_paula_tacques.jpg" alt="">
+
+            <div class="relato_content">
+                <h2>Relato de Ana Paula em Cuba</h2>
+                <p>Talvez este relato sobre minha experiência em Cuba não seja o mais fidedigno pois o escrevo com o coração, porém, certamente é o mais emocionado. Levei meses para escrevê-lo dado o fato de que haver realizado um desejo que há muito habitava
+                    em mim (conhecer um país socialista e poder ver e sentir de perto como vive seu povo) e que por fim, produziu -me, além de alegria por cada momento vivido <span> [Ler mais...]</span></p>
+            </div>
+        </div>
+
+        <div class="relato_pessoal">
+            <img src="./imagens/leticia_cristina.jpg" alt="">
+
+            <div class="relato_content">
+                <h2>Relato de Leticia Cristina conhecendo o Brasil</h2>
+                <p>VIAJAR NÃO É MINHA FUGA, É MEU ENCONTRO! (Um relato sobre minha jornada de conhecer o Brasil inteiro) Exatamente há 2 anos, 9 de outubro de 2018, eu saía do meu emprego CLT pra embarcar numa jornada muito mais incerta. Eu me formei em
+                    Engenharia Ambiental e fui trabalhar numa Usina de Cana-de-açúcar no interior de São Paulo, numa cidade com 40 mil habitantes. Fiquei lá 1 ano e meio. <span> [Ler mais...]</span></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- footer do site -->
+<div class="footer">
+    <div class="container">
+        <div class="footer_content">
+            <h4>Feito por Vitória Souza &COPY; 2020</h4>
+            <div class="site">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li>|</li>
+                    <li><a href="salvador.html">salvador</a> </li>
+                    <li>|</li>
+                    <li><a href="relatos.html">relatos</a></li>
+                    <li>|</li>
+                    <li><a href="login.html">compartilhe suas experiências</a></li>
+                </ul>
+            </div>
+
+            <div class="novidades">
+                <h2>Receba Novidades</h2>
+                <form>
+                    <input type="email" placeholder="seu@email.com">
+                    <button>Enviar</button>
+                </form>
+                <div class="redes_sociais">
+                    <i class="fab fa-github" onclick="link_git()"></i>
+                    <i class="fab fa-facebook" onclick="link_facebook()"></i>
+                    <i class="fab fa-instagram" onclick="link_instagram()"></i>
+                    <i class="fab fa-whatsapp" onclick="link_whatsapp()"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</html>
+<script src="./js/script.js"></script>

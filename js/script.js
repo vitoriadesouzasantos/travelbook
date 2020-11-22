@@ -26,60 +26,24 @@ function link_whatsapp() {
 
 // Login
 
-function movimento() {
-    var login = document.getElementById('dados');
-    login.classList.toggle('ativar');
+
+function move() {
+    var divToMove = document.getElementById('move')
+    divToMove.classList.toggle('active')
 }
 
-function logar() {
-    var titulo = document.getElementById('titulo_cadastro');
-    titulo.innerHTML = '<h2>Faça login para nos enviar <br> seu relato</h2>';
-
-    var button = document.getElementById('cadastro_button');
-    button.innerHTML = 'Entrar';
-
-    var li = document.getElementById('li_login');
-    li.innerHTML = 'Cadastrar-se';
-
-    var nome = document.getElementById('in_nome');
-    nome.style.display = 'none';
-
-    var icon_nome = document.getElementById('i_nome');
-    icon_nome.style.display = 'none';
-
-    var confirmar = document.getElementById('in_confirmacao');
-    confirmar.style.display = 'none';
-
-    var icon_confirmar = document.getElementById('i_confirmacao');
-    icon_confirmar.style.display = 'none';
-
-    var lembrar = document.getElementById('lembrar_me');
-    lembrar.style.display = 'flex';
-}
 
 function cadastrar() {
-    var titulo = document.getElementById('titulo_cadastro');
-    titulo.innerHTML = '<h2>Faça o cadastro e nos envie seu relato</h2>';
+    var titulo = document.getElementById('titulo_cadastro2');
+    titulo.classList.toggle('titulo_ativo');
 
+    var titulo3 = document.getElementById('titulo_cadastro3');
+    titulo3.classList.toggle('titulo_ativo');
 
-    var button = document.getElementById('cadastro_button');
-    button.innerHTML = 'Cadastrar';
+    var button = document.getElementById('move_button');
+    button.classList.toggle('button_ativo');
 
-    var li = document.getElementById('li_login');
-    li.innerHTML = 'Login';
+    var button2 = document.getElementById('move_button2');
+    button2.classList.toggle('button_ativo');
 
-    var nome = document.getElementById('in_nome');
-    nome.style.display = 'flex';
-
-    var icon_nome = document.getElementById('i_nome');
-    icon_nome.style.display = 'flex';
-
-    var confirmar = document.getElementById('in_confirmacao');
-    confirmar.style.display = 'flex';
-
-    var icon_confirmar = document.getElementById('i_confirmacao');
-    icon_confirmar.style.display = 'flex';
-
-    var lembrar = document.getElementById('lembrar_me');
-    lembrar.style.display = 'none';
 }

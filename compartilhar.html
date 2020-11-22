@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBook</title>
+    <link rel="stylesheet" href="./css/style_compartilhar.css">
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1828e94103.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <input type="checkbox" id="check">
+
+        <a href="index.html"><img src="./imagens/logo-travel.png" alt=""></a>
+        <ul>
+            <li class="topicos_li"><a href="index.html">home</a></li>
+            <li class="topicos_li"><a href="salvador.html">salvador</a></li>
+            <li class="topicos_li"><a href="relatos.html">relatos</a></li>
+            <li class="current"><a href="login.html">compartilhe suas experiências</a></li>
+        </ul>
+        <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+        <!-- Final da navbar -->
+    </div>
+    <div class="compartilhe">
+        <div class="container">
+            <div class="envio_content">
+                <div class="perfil">
+
+                </div>
+                <div class="relato">
+                    <div class="explicacao">
+                        <h2>Compartilhe aqui suas experiências, fotos, vídeos e tudo sobre a sua viagem</h2>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <input type="text" placeholder="Nome">
+                            <input type="text" placeholder="Local da viagem">
+                            <input type="text" placeholder="Link de mídia">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui seu relato"></textarea>
+                            <button>Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer do site -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <h4>Feito por Vitória Souza &COPY; 2020</h4>
+                <div class="site">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li>|</li>
+                        <li><a href="salvador.html">salvador</a> </li>
+                        <li>|</li>
+                        <li><a href="relatos.html">relatos</a></li>
+                        <li>|</li>
+                        <li><a href="login.html">compartilhe suas experiências</a></li>
+                    </ul>
+                </div>
+
+                <div class="novidades">
+                    <h2>Receba Novidades</h2>
+                    <form>
+                        <input type="email" placeholder="seu@email.com">
+                        <button>Enviar</button>
+                    </form>
+                    <div class="redes_sociais">
+                        <i class="fab fa-github" onclick="link_git()"></i>
+                        <i class="fab fa-facebook" onclick="link_facebook()"></i>
+                        <i class="fab fa-instagram" onclick="link_instagram()"></i>
+                        <i class="fab fa-whatsapp" onclick="link_whatsapp()"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
