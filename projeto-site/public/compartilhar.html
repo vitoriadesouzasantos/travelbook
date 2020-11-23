@@ -23,8 +23,8 @@
             <li class="topicos_li"><a href="index.html">home</a></li>
             <li class="topicos_li"><a href="salvador.html">salvador</a></li>
             <li class="topicos_li"><a href="relatos.html">relatos</a></li>
-            <li class="current"><a href="login.html">compartilhe suas experiências</a></li>
-            <li class="topicos_li">sair</li>
+            <li class="current"><a onclick="verificar_autenticacao()">compartilhe suas experiências</a></li>
+            <li class="topicos_li" onclick="logoff()">sair</li>
         </ul>
         <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -43,17 +43,17 @@
                         <h2>Compartilhe aqui suas experiências, fotos, vídeos e tudo sobre a sua viagem</h2>
                     </div>
                     <div class="formulario">
-                        <form>
-                            <input type="text" placeholder="Título do relato">
-                            <input type="text" placeholder="Local da viagem">
-                            <input type="text" placeholder="Link de mídia">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui seu relato"></textarea>
+                        <form id="form_relato" method="POST" onsubmit="return cadastrarRelato()">
+                            <input name="titulo_relato" type="text" placeholder="Título do relato">
+                            <input name="local_relato" type="text" placeholder="Local da viagem">
+                            <input name="link_midia" type="text" placeholder="Link de mídia">
+                            <textarea name="texto_relato" id="" cols="30" rows="10" placeholder="Digite aqui seu relato"></textarea>
                             <button>Enviar</button>
                         </form>
 
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
 
@@ -95,3 +95,6 @@
 </body>
 
 </html>
+
+<script src="./js/script.js"></script>
+<script src="./js/funcoes.js"></script>

@@ -37,7 +37,7 @@
         <div class="box login_content">
             <div id="cadastro_dados">
                 <h2>Faça o cadastro e nos <br> envie seu relato</h2>
-                <form>
+                <form id="form_cadastro" method="POST" onsubmit="return cadastrar_usuario()">
 
                     <div class="in_form">
                         <i id="i_nome" class="far fa-user"></i><input name="nome_cadastro" type="text" placeholder="Nome completo*" id="in_nome">
@@ -61,6 +61,7 @@
                     </div>
 
                     <button id="cadastro_button">Cadastrar</button>
+                    <img src="./imagens/loading.gif" id="loading" alt="">
 
                 </form>
                 <ul>
@@ -80,15 +81,20 @@
 
             <div id="login_dados">
                 <h2>Faça login para <br> nos enviar seu relato</h2>
-                <form>
+                <form id="form_login" method="post" onsubmit="return login_autenticar()">
                     <div class="in_form">
-                        <i id="i_email" class="fas fa-envelope-open-text"></i><input name="email_login" type="email" placeholder="Email*" id="in_email">
+                        <i id="i_email" class="fas fa-envelope-open-text"></i><input name="email_login" type="email" placeholder="Email*" id="in_email_l">
                     </div>
 
                     <div class="in_form">
-                        <i id="i_senha" class="fas fa-lock"></i><input name="senha_login" type="password" placeholder="Senha*" id="in_senha">
+                        <i id="i_senha" class="fas fa-lock"></i><input name="senha_login" type="password" placeholder="Senha*" id="in_senha_l">
                     </div>
-                    <button id="cadastro_button">Entrar</button>
+                    <div class="lembrar_me" id="lembrar_me">
+                        <input type="checkbox">
+                        <h4>Manter-me conectado</h4>
+                    </div>
+                    <button id="cadastro_button" type="submit">Entrar</button>
+                    <img src="./imagens/loading.gif" id="loading" alt="">
                 </form>
 
                 <ul>
@@ -142,3 +148,4 @@
 
 </html>
 <script src="./js/script.js"></script>
+<script src="./js/funcoes.js"></script>

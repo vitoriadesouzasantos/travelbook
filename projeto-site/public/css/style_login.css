@@ -224,7 +224,7 @@
     }
     
     .lembrar_me {
-        display: none;
+        display: flex;
         justify-content: center;
         width: 100%;
         margin-bottom: 14px;
@@ -255,6 +255,12 @@
         text-transform: uppercase;
     }
     
+    #loading {
+        display: none;
+        width: 15%;
+        margin-top: 13px;
+    }
+    
     .box button:hover {
         background-color: rgba(0, 0, 0, 0.8);
     }
@@ -275,7 +281,6 @@
     .box li:hover {
         color: black;
     }
-    /* começa aqui */
     
     .box {
         height: 420px;
