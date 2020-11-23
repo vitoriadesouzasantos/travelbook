@@ -211,6 +211,7 @@
     font-weight: 700;
     background: white;
     color: black;
+    transition: 0.7s;
 }
 
 .formulario button:hover {
