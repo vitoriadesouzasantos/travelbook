@@ -271,10 +271,12 @@
     cursor: pointer;
 }
 
-.redes_sociais i {
+.redes_sociais a {
     margin: 3% 10%;
     transition: 0.5s;
     font-size: 20px;
+    text-decoration: none;
+    color: #fff1bd;
 }
 
 .redes_sociais i:hover {
