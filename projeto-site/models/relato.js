@@ -25,6 +25,11 @@ module.exports = (sequelize, DataTypes) => {
             field: 'relato',
             type: DataTypes.STRING,
             allowNull: false
+        },
+        fk_usuario: {
+            field: 'fk_usuario',
+            type: DataTypes.INTEGER,
+            allowNull: true
         }
 
     }, {

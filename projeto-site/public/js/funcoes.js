@@ -1,6 +1,7 @@
 let login_usuario;
 let nome_usuario;
 let senha_usuario;
+let id_usuario;
 
 function redirecionar_login() {
     window.location.href = 'login.html';
@@ -10,13 +11,15 @@ function verificar_autenticacao() {
     login_usuario = sessionStorage.email_usuario;
     nome_usuario = sessionStorage.nome_usuario;
     senha_usuario = sessionStorage.senha_usuario;
+    id_usuario = sessionStorage.id;
+
+    console.log(id_usuario);
 
     if (login_usuario == undefined) {
         redirecionar_login();
     } else {
-        // b_usuario.innerHTML = nome_usuario;
         validar_sessao();
-        window.location.href = 'compartilhar.html';
+        document.getElementById('a_usuario').innerHTML = `Olá, ${nome_usuario}`;
     }
 
 }
@@ -45,11 +48,4 @@ function finalizar_sessao() {
     fetch(`/usuarios/sair/${login_usuario}`, { cache: 'no-store' });
 }
 
-function verificar() {
-    if (login_usuario == undefined) {
-        redirecionar_login();
-    } else {
-        b_usuario.innerHTML = nome_usuario;
-        validar_sessao();
-    }
-}
+verificar_autenticacao();

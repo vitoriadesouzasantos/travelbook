@@ -58,8 +58,7 @@ function cadastrar_usuario() {
 }
 
 function login_autenticar() {
-    var loading_img = document.getElementById("loading");
-    loading_img.style.display = 'block';
+    document.getElementById("loading_login").style.display = 'block';
     var formularioAutenticacao = document.getElementById("form_login");
     var formularioAutenticar = new URLSearchParams(new FormData(formularioAutenticacao));
     fetch("/usuarios/autenticar", {
@@ -74,6 +73,7 @@ function login_autenticar() {
                 sessionStorage.email_usuario = json.email;
                 sessionStorage.nome_usuario = json.nome;
                 sessionStorage.senha_usuario = json.senha;
+                sessionStorage.id = json.id;
 
                 window.location.href = 'compartilhar.html';
             });
@@ -93,7 +93,8 @@ function login_autenticar() {
 }
 
 function cadastrarRelato() {
-
+    var formRelato = document.forms.relato_form;
+    formRelato.elements.fkUsuario.value = sessionStorage.id;
     var formulario = document.getElementById("form_relato");
 
     var dadosRelato = new URLSearchParams(new FormData(formulario));

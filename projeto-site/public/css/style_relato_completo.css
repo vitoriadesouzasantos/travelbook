@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    height: 80px;
+    height: 13vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -102,138 +102,57 @@
 
 /* final da navbar */
 
-.compartilhe {
-    background: url('../imagens/fundo_envio.jpeg');
-    background-size: cover;
-    height: 87vh;
-    width: 100%;
-}
-
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 92%;
     margin: auto;
 }
 
-.envio_content {
-    display: flex;
-    background-color: #00000030;
-    height: 82vh;
-    width: 817px;
+.relatos {
+    height: 320vh;
+    width: 100%;
+    background-color: #fff1bd;
 }
 
-.perfil {
-    display: flex;
-    height: 100%;
-    width: 35%;
-    background: url('../imagens/fundo_perfil.jpeg');
-    background-size: cover;
+#img_relato {
+    height: 500px;
+    margin-top: 11%;
 }
 
-.relato {
+.texto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    height: 320vh;
+    margin-top: 65px;
 }
 
-.explicacao {
-    height: 19%;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.texto p {
+    width: 83%;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    line-height: 22px;
 }
 
-.explicacao h2 {
-    color: #fff1bd;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    width: 100%;
-    text-align: left;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: auto;
-    height: 80%;
-    width: 100%;
-    background-color: #ffffff4d;
-}
-
-.formulario form {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.formulario input {
-    outline: none;
-    width: 85%;
-    height: 8%;
-    border: 2px solid black;
-    border-radius: 7px;
+.texto h2 {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    background: white;
-}
-
-.formulario textarea {
-    outline: none;
-    width: 85%;
-    height: 40%;
-    border: 2px solid black;
-    background: white;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    border-radius: 7px;
-    text-align: center;
-}
-
-.formulario button {
-    outline: none;
-    width: 25%;
-    height: 10%;
-    border: 2px solid black;
-    border-radius: 14px;
-    cursor: pointer;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    background: black;
-    color: white;
-}
-
-.formulario button:hover {
-    background-color: #ffffff47;
-    color: black;
-    transition: 0.7s;
+    font-size: 21px;
+    color: #193647;
+    margin-bottom: 20px;
 }
 
 
-/* final do compartilhe */
+/* final dos relatos */
 
 .footer {
     width: 100%;
     height: 20vh;
     background-color: #193647;
     border-top: 2px solid black;
-}
-
-.container {
-    display: flex;
-    height: 100%;
-    width: 92%;
-    margin: auto;
 }
 
 .footer_content {

@@ -20,10 +20,11 @@
 
         <a href="index.html"><img src="./imagens/logo-travel.png" alt=""></a>
         <ul>
+            <li class="topicos_li"><a id="a_usuario">Olá</a></li>
             <li class="topicos_li"><a href="index.html">home</a></li>
             <li class="topicos_li"><a href="salvador.html">salvador</a></li>
             <li class="topicos_li"><a href="relatos.html">relatos</a></li>
-            <li class="current"><a onclick="verificar_autenticacao()">compartilhe suas experiências</a></li>
+            <li class="current"><a href="compartilhar.html">compartilhe suas experiências</a></li>
             <li class="topicos_li" onclick="logoff()">sair</li>
         </ul>
         <label for="check" class="checkbtn">
@@ -43,10 +44,11 @@
                         <h2>Compartilhe aqui suas experiências, fotos, vídeos e tudo sobre a sua viagem</h2>
                     </div>
                     <div class="formulario">
-                        <form id="form_relato" method="POST" onsubmit="return cadastrarRelato()">
+                        <form name="relato_form" id="form_relato" method="POST" onsubmit="return cadastrarRelato()">
                             <input name="titulo_relato" type="text" placeholder="Título do relato">
                             <input name="local_relato" type="text" placeholder="Local da viagem">
                             <input name="link_midia" type="text" placeholder="Link de mídia">
+                            <input type="hidden" name="fkUsuario">
                             <textarea name="texto_relato" id="" cols="30" rows="10" placeholder="Digite aqui seu relato"></textarea>
                             <button>Enviar</button>
                         </form>

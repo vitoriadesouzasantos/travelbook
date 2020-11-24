@@ -101,7 +101,7 @@
     /* final da navbar */
     
     .login {
-        height: 70.3vh;
+        height: 86vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -120,14 +120,14 @@
     
     .login_content {
         display: flex;
-        height: 420px;
+        height: 488px;
         width: 724px;
         background-color: white;
     }
     
     .cadastro {
         height: 420px;
-        width: 362px;
+        width: 488px;
         background-color: black;
         background-image: url(../imagens/fundo_login.jpeg);
         background-size: cover;
@@ -255,7 +255,8 @@
         text-transform: uppercase;
     }
     
-    #loading {
+    #loading,
+    #loading_login {
         display: none;
         width: 15%;
         margin-top: 13px;
@@ -283,7 +284,7 @@
     }
     
     .box {
-        height: 420px;
+        height: 488px;
         width: 724px;
         background: rgba(209, 223, 245, 1);
         display: flex;
@@ -308,7 +309,7 @@
     
     #move {
         width: 362px;
-        height: 420px;
+        height: 488px;
         transition: transform 1s;
         z-index: 1;
     }
