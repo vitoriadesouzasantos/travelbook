@@ -20,7 +20,7 @@ var relatos = [
         imagem: './imagens/leticia_cristina.jpg'
     },
 
-    relato3 = {
+    relato4 = {
         titulo: "Relato de Larissa Lima realizando um sonho",
         texto: 'Durante minha vida tive algumas oportunidades de viajar, inclusive para fora do país. Mas entre todas as viagens que já fiz, com certeza uma delas foi mais especial e incrível: como um sonho! <br>Foi minha viagem para os Estados Unidos com minha família: minha mãe, minha avó, minha tia, meu tio e minhas 3 primas (foi uma grande viagem) em setembro de 2015. <br> Saímos do aeroporto de Campinas-SP e pousamos em Miami. Depois de ficarmos lá por um tempo, dirigimos para Orlando com os carros que alugamos (carros grandes e bonitos). Nós ficamos em uma casa em um condomínio muito grande e bonito, e perto dos parques também. A nossa casa, como tudo o mais lá: as ruas, as residências, os carros, os parques, as lojas, os táxis e o ônibus escolar, até o café da manhã ... parecia o que só havíamos visto na tv, filmes e séries. <br> Então, nós ficamos lá por cerca de 2 semanas, e fizemos muitos passeios turísticos. Fomos a muitos parques, como os parques da Disney, parques uda Universal, parques aquáticos e alguns outros. Também levamos alguns dias para fazer compras em diversos shoppings e lojas, visitar a cidade e curtir a área de lazer do condomínio. <br> Fiquei admirada com cada detalhe e momento. O que tornou esta viagem tão espetacular além do lugar magnífico e mágico, foi a presença da minha família, que tornou todas as experiências, inclusive as montanhas-russas, muito mais especiais para mim! <br> Lembrando daquela viagem e de como as coisas aconteceram de forma certa, tenho absoluta certeza que foi um presente de Deus para nós, que esteve presente em toda a viagem!<br>Então, essa foi a viagem dos meus sonhos.',
         imagem: './imagens/larissa_lima.jpg'
@@ -47,9 +47,9 @@ spans.forEach((span, contador) => {
         // essa const foi criada para redirecionar a variavel para outra página
         const data_relatos = [
             relato = {
-                titulo: relatos[contador]['titulo'],
-                texto: relatos[contador]['texto'],
-                imagem: relatos[contador]['imagem']
+                titulo: relatos[contador].titulo,
+                texto: relatos[contador].texto,
+                imagem: relatos[contador].imagem
             }
         ]
 
