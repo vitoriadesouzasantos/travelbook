@@ -18,19 +18,33 @@ var relatos = [
         titulo: "Relato de Leticia Cristina conhecendo o Brasil",
         texto: 'VIAJAR NÃO É MINHA FUGA, É MEU ENCONTRO! (Um relato sobre minha jornada de conhecer o Brasil inteiro). <br> Exatamente há 2 anos, 9 de outubro de 2018, eu saía do meu emprego CLT pra embarcar numa jornada muito mais incerta. Eu me formei em Engenharia Ambiental e fui trabalhar numa Usina de Cana-de-açúcar no interior de São Paulo, numa cidade com 40 mil habitantes. Fiquei lá 1 ano e meio. Mesmo antes de ir, eu sabia que aquilo não era pra mim. Eu tinha uma mentalidade muito diferente das pessoas de lá, quase não fiz amigos e foi um período bem difícil da minha vida.Mas eu não tô aqui pra romantizar o meu ato de "largar tudo" e sim compartilhar o que eu aprendi nessa transição e nos meus 18 meses de estrada pelo Brasil. Certamente meu tempo na grande Paraguaçu Paulista não foi o mais feliz, mas eu tinha um bom salário e isso me permitiu juntar uma quantia de dinheiro pra me manter por um bom tempo. Sair de lá foi libertador. <br> Depois, o que era inicialmente uma viagem de férias virou um impulso pra continuar viajando pelo Brasil. Eu comecei fazendo um mochilão de 1 mês pelo Jalapão, Chapada das Mesas, São Luís, Salvador e Chapada Diamantina. Antes de pedir demissão eu pesquisei sobre tirar um "período sabático", mas não sabia como tornar realidade. Também pensava "e o depois?". Outra coisa que me incomodava era que, no geral, as pessoas absorvem tanto viajando, mas não necessariamente retornam algo bom pra sociedade. Pode parecer utópico, mas na minha vida, "fazer a diferença" sempre foi um premissa. E com o tempo eu percebi como o turismo causava impactos negativos. <br> Me encontrei fazendo voluntariado pelo ICMBio em Unidades de Conservação. Passei por Lençóis Maranhenses, Jericoacoara, Chapada dos Guimarães, Caparaó e Manaus, trabalhando com educação ambiental, orientando turistas, auxiliando a pesquisa, conversando com comunidades tradicionais... conhecendo os lugares com mais conexão eu comecei a enxergar problemáticas que nem sempre estão visíveis ao turismo massificado. E como isso prejudica, entre várias coisas, o meio ambiente. <br> Pra muita gente viajar pode ser uma fuga mesmo. E por ser um oportunidade de se "desconectar" da realidade, da rotina, do trabalho, do caos, muitos esquecem que viajar não é um ato isolado de tudo. É aí que acontece um turismo desconexo e egoísta. Eu até pensei que pudesse estar viajando pra fugir de algo. Mas o fato é que eu sempre viajei pra ir de encontro com tudo aquilo que, pra mim, faz a vida valer a pena. Confrontar as realidades como eu imagino com o que elas realmente são. Conhecer pessoas de contextos sócioculturais completamente diferentes e ouvir as histórias que elas têm pra contar. Sentir a adrenalina que é chegar no topo de uma montanha ou pular numa cachu depois de uma longa trilha. Ver, com meus próprios olhos, o que existe aí pra ser visto. E como tem coisa pra ver na nossa terrinha!! <br> O Brasil é um país de vários mundos. Mundos completamente diferentes, mas que compartilham uma mesma essência. Já parou pra pensar o que nos une? Eu tô em busca disso até agora, mas não dá pra negar o quanto o Brasil é especial. É único. É uma mistura doida, bonita, cheia de vida. Eu, uma Curitibana, já me senti em casa no interior do Maranhão, no interior do Acre, no caos de São Paulo ou na tranquilidade de uma pequena cidade de Minas. Viajar é sobre pertencimento. Mas também saber que, quando você não se sente em casa, é hora de partir. Talvez seja por isso que eu não vejo viajar como uma fuga... Eu não tô fugindo de casa, mas sempre encontrando novos lares. <br> "E o depois?" Eu não sei. Só sei que minha vida tava indo pra um rumo muito diferente antes de 9 de outubro de 2018. Assim como tava antes da pandemia. Esse período, assim como o que eu passei no interior de São Paulo, me trouxe muita angústia. Mas como já aconteceu em outros momentos da minha vida, eu acredito que os períodos de "baixa" também tem sua função e antecedem grandes mudanças. <br> Eu sei que tenho meus privilégios em poder viver essa vida "incerta" e que a realidade de muitas pessoas no Brasil é bem diferente da minha, mas espero que esse relato possa ajudar quem também passa por um momento de angústia a enxergar novas possibilidades (e se inspirar pra se jogar nesse Brasilzão lindo!) Também não sou nenhuma sábia, mas mesmo na minha pequena existência de 26 anos, há tempos já percebi que a vida é curta demais pra ser desperdiçada com algo que não faz sentido pra ti. Seja viajando, num emprego CLT, empreendendo seu negócio... quando teu coração sente que está exatamente onde deveria estar, mermão, é a melhor sensação do mundo!! Pode parecer piegas, brega, coisa de coach (seja lá o que você acha kkkkk), mas é sério, não deixe de ir atrás dessa sensação. Um dos meus sonhos é conhecer todos os estados do Brasil (faltam 7: MS, PA, RR, AP, RN, AL e SE) e criei um projeto pra compartilhar minhas andanças, informações que ajudem a democratizar o acesso às viagens e reflexões sobre turismo consciente (além de tentar fazer o bem por aí 😊).',
         imagem: './imagens/leticia_cristina.jpg'
+    },
+
+    relato3 = {
+        titulo: "Relato de Larissa Lima realizando um sonho",
+        texto: 'Durante minha vida tive algumas oportunidades de viajar, inclusive para fora do país. Mas entre todas as viagens que já fiz, com certeza uma delas foi mais especial e incrível: como um sonho! <br>Foi minha viagem para os Estados Unidos com minha família: minha mãe, minha avó, minha tia, meu tio e minhas 3 primas (foi uma grande viagem) em setembro de 2015. <br> Saímos do aeroporto de Campinas-SP e pousamos em Miami. Depois de ficarmos lá por um tempo, dirigimos para Orlando com os carros que alugamos (carros grandes e bonitos). Nós ficamos em uma casa em um condomínio muito grande e bonito, e perto dos parques também. A nossa casa, como tudo o mais lá: as ruas, as residências, os carros, os parques, as lojas, os táxis e o ônibus escolar, até o café da manhã ... parecia o que só havíamos visto na tv, filmes e séries. <br> Então, nós ficamos lá por cerca de 2 semanas, e fizemos muitos passeios turísticos. Fomos a muitos parques, como os parques da Disney, parques uda Universal, parques aquáticos e alguns outros. Também levamos alguns dias para fazer compras em diversos shoppings e lojas, visitar a cidade e curtir a área de lazer do condomínio. <br> Fiquei admirada com cada detalhe e momento. O que tornou esta viagem tão espetacular além do lugar magnífico e mágico, foi a presença da minha família, que tornou todas as experiências, inclusive as montanhas-russas, muito mais especiais para mim! <br> Lembrando daquela viagem e de como as coisas aconteceram de forma certa, tenho absoluta certeza que foi um presente de Deus para nós, que esteve presente em toda a viagem!<br>Então, essa foi a viagem dos meus sonhos.',
+        imagem: './imagens/larissa_lima.jpg'
     }
 
 
 
 ];
 
+// o querySelectorAll seleciona todos os elementos que estiverem com a classe correspondida
 var spans = document.querySelectorAll('.relatos_span');
 
+// forEach = percorre toda a lista e manipula cada item da forma que eu escolho 
 spans.forEach((span, contador) => {
     var a = document.createElement("a");
     a.innerHTML = '[Ler mais...]';
+    // o createElement cria um elemento e o append traz esse elemento criado para o item que eu adicionei ele
     span.append(a);
+    // addEventListener = quando acionado ele realiza a função que foi realizada pelo desenvolvedor
     a.addEventListener('click', () => {
+
+        // contador = variável de controle para checar o índice
+
+        // essa const foi criada para redirecionar a variavel para outra página
         const data_relatos = [
             relato = {
                 titulo: relatos[contador]['titulo'],
@@ -38,7 +52,12 @@ spans.forEach((span, contador) => {
                 imagem: relatos[contador]['imagem']
             }
         ]
+
+
         console.log(data_relatos);
+
+        // session = cria uma sessão para conseguir ser utilizada em outras páginas
+        // JSON.stringify = converte os valores para uma string do tipo json(um tipo de formato de variavel do JS)
         sessionStorage.setItem('relato_session', JSON.stringify(data_relatos));
         window.location = 'relato_completo.html'
     })

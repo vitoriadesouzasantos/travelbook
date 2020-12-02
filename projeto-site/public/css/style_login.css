@@ -230,6 +230,16 @@
         margin-bottom: 14px;
     }
     
+    #mensagem {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 14px;
+        font-family: 'Quicksand', sans-serif;
+        color: red;
+        font-size: 12px;
+    }
+    
     .lembrar_me h4 {
         margin-left: 2px;
         font-family: 'Quicksand', sans-serif;

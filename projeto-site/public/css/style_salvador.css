@@ -116,10 +116,19 @@
     border-bottom: 2px solid black;
 }
 
-.salvador {
+
+/* .salvador {
     width: 60%;
     margin-top: 1%;
     margin-bottom: 1%;
+} */
+
+#carrossel {
+    width: 825px;
+    height: 514px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 4px solid black;
 }
 
 .texto_salvador {
@@ -128,6 +137,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 27%;
     margin-left: 5%;
     line-height: 22px;
 }
@@ -140,7 +150,7 @@
 }
 
 .texto_salvador p {
-    width: 78%;
+    width: 93%;
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;

@@ -17,6 +17,7 @@
 
 .container {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 92%;
     margin: auto;
@@ -111,9 +112,19 @@
 
 .relatos {
     display: flex;
-    height: 200vh;
+    height: 240vh;
     width: 100%;
     background-color: #ccdde6;
+}
+
+.textos_relatos {
+    display: flex;
+    height: 50%;
+}
+
+.textos {
+    display: flex;
+    height: 50%;
 }
 
 .relato_pessoal {
@@ -123,7 +134,7 @@
     align-items: center;
     margin-top: 3%;
     width: 33%;
-    height: 50%;
+    height: 100%;
 }
 
 .relato_pessoal img {
@@ -137,6 +148,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 .relato_content h2 {
@@ -144,6 +156,7 @@
     font-family: 'Quicksand', sans-serif;
     color: #0f757b;
     margin-bottom: 10px;
+    margin-top: 5%;
 }
 
 .relato_content h2:hover,

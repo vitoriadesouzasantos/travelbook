@@ -23,7 +23,33 @@
 .navbar ul {
     display: flex;
     align-items: center;
-    margin-right: 66px;
+}
+
+.navbar i {
+    margin-right: 29px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#a_sair {
+    margin-right: 29px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#a_sair:hover {
+    color: red;
+}
+
+#a_usuario {
+    color: #670067;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
 }
 
 .topicos_li {
